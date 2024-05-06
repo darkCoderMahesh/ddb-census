@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>DDB Census</title>
+      <link rel="icon" href="images/favicon.png" sizes="32x32" />
+        <link rel="apple-touch-icon" href="images/favicon.png" />
+      <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg">
+            <div class="container">
+               <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="135px" alt="" /></a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="agencies.html">Partnering Agencies</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Thought Leadership</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="case-studies.html">Case Studies</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Latest @Census</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="team.html">Meet the Team</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="bar ms-auto" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <svg width="37" height="19" viewBox="0 0 37 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <line x1="0.5" y1="1.25" x2="36.5" y2="1.25" stroke="white" stroke-width="2.5"/>
+                   <line x1="0.5" y1="9.25" x2="36.5" y2="9.25" stroke="white" stroke-width="2.5"/>
+                   <line x1="0.5" y1="17.25" x2="36.5" y2="17.25" stroke="white" stroke-width="2.5"/>
+                </svg> 
+             </div>
+            </div>
+         </nav>
+      </header>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="off_menu">
+                <li><a href="#">Getting to Know Omnicom <img src="images/menu_arrow_right.svg" alt=""></a></li>
+                <li><a href="#">Omnicom at Events <img src="images/menu_arrow_right.svg" alt=""></a></li>
+                <li><a href="#">Omnicom in the News <img src="images/menu_arrow_right.svg" alt=""></a></li>
+                <li><a href="#">RFI <img src="images/menu_arrow_right.svg" alt=""></a></li>
+                <li><a href="#">RFP <img src="images/menu_arrow_right.svg" alt=""></a></li>
+                <li><a href="articles.html">Featured Articles <img src="images/menu_arrow_right.svg" alt=""></a></li>
+                <li><a href="#">More <img src="images/menu_arrow_right.svg" alt=""></a></li>
+            </ul>
+        </div>
+        </div>
+
+
+        <div class="innner_banner">
+            <img src="images/team_banner.jpg" width="100%" alt="">
+            <div class="text">
+                <div class="container">
+                    <h1><span>Meet the</span>LEADERSHIP TEAM</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="team_page sec-padd">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team_card" data-bs-toggle="modal" data-bs-target="#alex_luber">
+                            <img src="images/ALEX_LUBAR.jpg" class="photo" alt="">
+                            <img src="images/team_shadow.png" class="shadow" alt="">
+                            <div class="name">ALEX LUBAR</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team_card" data-bs-toggle="modal" data-bs-target="#Marty">
+                            <img src="images/MARTY.jpg" class="photo" alt="">
+                            <img src="images/team_shadow.png" class="shadow" alt="">
+                            <div class="name">Marty O’Halloran</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team_card" data-bs-toggle="modal" data-bs-target="#Glen">
+                            <img src="images/GLEN.jpg" class="photo" alt="">
+                            <img src="images/team_shadow.png" class="shadow" alt="">
+                            <div class="name">Glen Lomas</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team_card" data-bs-toggle="modal" data-bs-target="#Roisin">
+                            <img src="images/ROISIN.jpg" class="photo" alt="">
+                            <img src="images/team_shadow.png" class="shadow" alt="">
+                            <div class="name">Roisin Rooney</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team_card" data-bs-toggle="modal" data-bs-target="#Mike">
+                            <img src="images/MIKE.jpg" class="photo" alt="">
+                            <img src="images/team_shadow.png" class="shadow" alt="">
+                            <div class="name">Mike Barlow</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team_card" data-bs-toggle="modal" data-bs-target="#DonnaTobin">
+                            <img src="images/DONNA-1.jpg" class="photo" alt="">
+                            <img src="images/team_shadow.png" class="shadow" alt="">
+                            <div class="name">Donna Tobin</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team_card" data-bs-toggle="modal" data-bs-target="#Tomas">
+                            <img src="images/TOMAS.jpg" class="photo" alt="">
+                            <img src="images/team_shadow.png" class="shadow" alt="">
+                            <div class="name">Tomas Gonsorcik</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team_card" data-bs-toggle="modal" data-bs-target="#Dave">
+                            <img src="images/DAVE.jpg" class="photo" alt="">
+                            <img src="images/team_shadow.png" class="shadow" alt="">
+                            <div class="name">Dave Kissel</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team_card" data-bs-toggle="modal" data-bs-target="#Varsha">
+                            <img src="images/DONNA.jpg" class="photo" alt="">
+                            <img src="images/team_shadow.png" class="shadow" alt="">
+                            <div class="name">Varsha Kaura</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team_card" data-bs-toggle="modal" data-bs-target="#Aditya">
+                            <img src="images/ADITYA.jpg" class="photo" alt="">
+                            <img src="images/team_shadow.png" class="shadow" alt="">
+                            <div class="name">Aditya Kanthy</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team_card" data-bs-toggle="modal" data-bs-target="#Andrew">
+                            <img src="images/ANDREW.jpg" class="photo" alt="">
+                            <img src="images/team_shadow.png" class="shadow" alt="">
+                            <div class="name">Andrew Little</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team_card" data-bs-toggle="modal" data-bs-target="#Esther">
+                            <img src="images/ESTHER.jpg" class="photo" alt="">
+                            <img src="images/team_shadow.png" class="shadow" alt="">
+                            <div class="name">Esther Selvanayagam</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ALEX LUBAR -->
+                <div class="modal fade team_model" id="alex_luber" tabindex="-1" aria-labelledby="alex_luberLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="photo">
+                                    <img src="images/ALEX_LUBAR.jpg" alt="">
+                                </div>
+                                <div class="name">Alex Lubar</div>
+                                <div class="deg">Global CEO</div>
+                                <div class="des">
+                                    <p>Alex is DDB Worldwide’s Global CEO focused on growth, working closely with DDB’s global leadership team on advancing DDB’s global strategic plan. Prior to his elevation to Global CEO, Alex was most recently Global President and Chief Operating Officer, DDB Worldwide. Before that, he was with McCann where he held several regional leadership roles including President of McCann’s North America region, President of McCann Asia Pacific, and CEO of McCann London. Alex has also held leadership roles with agencies including Grey and BBH.</p>
+                                    <p>Alex was born and raised in London.</p>
+                                    <p>His father is American, his mother is French, his wife is Mexican and has three young children, Lucas, Dylan and Siena. He plays tennis with enthusiasm, periodically runs until injured, and is in constant search of snow in which to wipe out.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ALEX LUBAR END-->
+                 <!-- Marty O’Halloran -->
+                 <div class="modal fade team_model" id="Marty" tabindex="-1" aria-labelledby="MartyLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="photo">
+                                    <img src="images/MARTY.jpg" alt="">
+                                </div>
+                                <div class="name">Marty O’Halloran</div>
+                                <div class="deg">Chairman</div>
+                                <div class="des">
+                                    <p>Marty O’Halloran was appointed DDB Worldwide Chief Executive Officer in July 2020 and Chairman in 2023.</p>
+                                    <p>With over 30 years of experience at DDB, Marty brings a deep understanding of the network’s rich history, culture, and people to the role of worldwide CEO. Marty spent nearly 20 years with the network before being named Chairman and CEO of DDB Group Australia and New Zealand in 2005. He also serves as Board Director of the Omnicom Media Group Australia and New Zealand Board and was the Chairman of the Interbrand Australia board. Throughout his career, Marty has been a driver of creativity, talent, and culture for DDB and its clients</p>
+                                    <p>Marty has a deep understanding of client needs, which resulted in the Australia and New Zealand agencies some of the most recognized and awarded agencies in the world. During his time as Chairman and CEO of DDB Group Australia and New Zealand, the region dominated in a variety of Agency of the Year and regional Network of the Year awards including AWARD, Axis, Campaign in addition to international awards including Cannes, One Show, D&AD, Spikes, and Campaign Asia Pacific. Under Marty’s leadership, DDB in Australia and New Zealand has been recognized as the fastest growing international network in the region.</p>
+                                    <p>In his role as CEO of DDB Worldwide, Marty ‘s leadership spans over 100 offices across the world.</p>
+                                    <p>A former member of the Australia Rowing team, Marty is married to his wife, Deborah, with whom he raised three children.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Marty O’Halloran END-->
+
+                <!-- Glen -->
+                <div class="modal fade team_model" id="Glen" tabindex="-1" aria-labelledby="GlenLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="photo">
+                                    <img src="images/GLEN.jpg" alt="">
+                                </div>
+                                <div class="name">Glen Lomas</div>
+                                <div class="deg">Global President and Chief Operating Officer</div>
+                                <div class="des">
+                                    <p>Glen is currently the Global President and Chief Operating Officer of DDB Worldwide. He also oversees Europe, Middle East and Africa, DDB’s largest region. Glen joined the London office (then BMP DDB) in 1995, cutting his teeth on Tony Blair’s election campaign in 1997 before running the Vodafone and Unilever accounts. He spent 10 years in South Africa as Chairman and CEO, building the DDB network across the African continent before returning to London to manage the network’s international relationships. Glen is recognized for championing creativity within the network and his intuitive leadership.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Glen END-->
+
+                <!-- Roisin -->
+                <div class="modal fade team_model" id="Roisin" tabindex="-1" aria-labelledby="RoisinLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="photo">
+                                    <img src="images/ROISIN.jpg" alt="">
+                                </div>
+                                <div class="name">Roisin Rooney</div>
+                                <div class="deg">Global Chief People Officer</div>
+                                <div class="des">
+                                    <p>As Global Chief People Officer for the DDB Worldwide network, Roisin’s role is to optimize DDB’s people-centered activities to ensure continuous growth for our over 8,000 employees around the world. She’s a firm believer in giving talent the power to propel their careers, have impact, and do some of the best work.</p>
+                                    <p>She is a network lifer who has DDB proudly cursing through her veins. Her partnership with DDB Global CEO Alex Lubar, and the wider executive leadership team, ensures we hold ourselves accountable to nurturing and bringing to life an exceptional company culture, embodied through our values, beliefs, and behaviours.</p>
+                                    <p>Roisin is passionate about authentic leadership and building inclusive cultures. A people connector whose greatest joy is to support exceptional talent to do amazing things and helping people unleash their full potential to make them proud of who they are and what they do.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Roisin END-->
+
+                <!-- Mike -->
+                <div class="modal fade team_model" id="Mike" tabindex="-1" aria-labelledby="MikeLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="photo">
+                                    <img src="images/MIKE.jpg" alt="">
+                                </div>
+                                <div class="name">Mike Barlow</div>
+                                <div class="deg">Global CFO</div>
+                                <div class="des">
+                                    <p>Mike is the Global CFO of DDB Worldwide. An accomplished finance leader for over 20 years, Mike began his career with Omnicom Corporate in 2002 before transferring to DDB in 2007 as the US Controller. In 2014, Mike became CFO for DDB EMEA and rose to take on his current role as Global CFO in 2020.</p>
+                                    <p>A driving force within the DDB network, Mike oversees the strategic financial planning process across all global regions. He is in lock step with DDB WW’s Global CEO Alex Lubar and provides direction to all DDB regional and local agency leaders on financial plans, forecasting and reporting into Omnicom. As a member of DDB WW’s global leadership team, Mike’s sharp financial acumen and guidance provides a solid foundation which fuels DDB WW’s growth.</p>
+                                    <p>Mike is an Australian and US citizen. He graduated from the University of Western Australia and has enjoyed living and working in Australia, the UK, US and Canada over the years. He currently lives in Brooklyn with his wife JoAnna, their two children and dog.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mike END-->
+                <!-- Donna Tobin -->
+                <div class="modal fade team_model" id="DonnaTobin" tabindex="-1" aria-labelledby="DonnaTobinLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="photo">
+                                    <img src="images/DONNA-1.jpg" alt="">
+                                </div>
+                                <div class="name">Donna Tobin</div>
+                                <div class="deg">Global Chief Marketing & Communications Officer</div>
+                                <div class="des">
+                                    <p>Donna brings her passion for people, creativity and being a positive change agent to her role as Global Chief Marketing & Communications Officer at DDB Worldwide.</p>
+                                    <p>In addition to being a member of DDB’s Global Executive Leadership Team, she is on the OmniWomenNY Board, the Forbes Communications Council, and the 4A’s Agency Communications Committee. Dedicated to mentorship, Donna developed and launched a Women’s Leadership Network and mentoring program while at WPP’s Kantar, is an active mentor as part of Omnicom’s OmniWomen mentorship program, and has participated in the 4A’s Vanguard Mentorship program, as well as the MAIP Mentorship program.</p>
+                                    <p>Prior to her role at DDB Worldwide, Donna was the EVP, Marketing, Communications, Events & Partnerships at the American Association of Advertising Agencies (4A’s). She has extensive ad agency account management experience and led global brands, marketing, communications, and product development across industries including food and beverage, fashion, toys, licensing, and entertainment at companies such as Ocean Spray, Hasbro, Basic Fun!, and WPP.</p>
+                                    <p>Donna was named a 2023 PR Daily Top Woman in Marketing in the Agency Leaders category, a 2023 Women in Content Marketing Awards Marketing Leader of the Year finalist, a 2024 Gerety Awards Grand Jury member, a 2022 The Drum’s PR Awards Jury member, and was selected by Marketing Edge Magazine as a Top Female CMO to watch in 2021. She loves music, has three girls, and commutes into DDB Worldwide’s headquarters in Manhattan by high-speed ferry from the top of the Jersey shore where she lives with her husband John.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Donna Tobin END-->
+
+                <!-- Tomas -->
+                <div class="modal fade team_model" id="Tomas" tabindex="-1" aria-labelledby="TomasLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="photo">
+                                    <img src="images/TOMAS.jpg" alt="">
+                                </div>
+                                <div class="name">Tomas Gonsorcik</div>
+                                <div class="deg">Global Chief Strategy Officer</div>
+                                <div class="des">
+                                    <p>Originally from Slovakia with London and NYC agency experience, Tomas has led strategy on global brands such as The Coca Cola Company, New Balance, The Ford Motor Company, Colgate-Palmolive and McDonald’s. Since joining the network in September 2022, Tomas has focused on codifying DDB’s strategic excellence into a universal language for the network’s global planning community with a focus on emotional advantage, creative impact and effectiveness.</p>
+                                    <p>Tomas has also initiated DDB’s partnership with Parley For The Oceans, becoming DDB’s sustainability spokesperson. He is a member of DDB’s Global Sustainability and AI Councils and is leading the ongoing development of proprietary strategic tools with DDB’s Global Strategic Council that are used to impact effective creativity that fuels client growth. Tomas is also the co-chair of the 4A’s Strategy Committee and sits on the WARC Global Effectiveness Council. He previously served as Chief Strategy Officer at VMLY&R.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tomas END-->
+
+                <!-- Dave Kissel -->
+                <div class="modal fade team_model" id="Dave" tabindex="-1" aria-labelledby="DaveLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="photo">
+                                    <img src="images/DAVE.jpg" alt="">
+                                </div>
+                                <div class="name">Dave Kissel</div>
+                                <div class="deg">Global Business Lead/McDonald’s</div>
+                                <div class="des">
+                                    <p>Dave Kissel is an award-winning senior marketing executive with extensive experience delivering effective brand communications plans for Fortune 500 clients, leading cross-functional teams at world-class agencies and media companies.</p>
+                                    <p>Dave is currently a Global Business Lead at Doyle Dane Bernbach Worldwide, one of the world’s most creative advertising networks. As a partner to McDonald’s in 45 countries, the world’s largest restaurant company is DDB’s biggest multi-national client. Dave is responsible for the global leadership and coordination of the agency’s McDonald’s relationships, helping each office deliver high-impact strategy, content and experiences to measurably grow the McDonald’s brand and business. Dave is a member of DDB Worldwide’s Executive Leadership Team, as well as a member of Omnicom’s Global Client Leadership Team.</p>
+                                    <p>Dave transitioned to the Global role after having been a key architect and builder of We Are Unlimited, the DDB-led “Agency of the Future” designed specifically for McDonald’s U.S. by Omnicom. In addition, Dave is the former CEO of, InStadium, a national Nielsen-measured media network consisting of 450+ pro and college sports teams. Under Dave’s leadership, he helped transform InStadium into a multi-media video and gaming platform for major brands. Prior to InStadium, Dave helped create the award-winning agency Zócalo Group, Omnicom’s first dedicated social media agency, a division of Critical Mass.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dave Kissel END-->
+
+                <!-- Varsha -->
+                <div class="modal fade team_model" id="Varsha" tabindex="-1" aria-labelledby="VarshaLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="photo">
+                                    <img src="images/DONNA.jpg" alt="">
+                                </div>
+                                <div class="name">Varsha Kaura</div>
+                                <div class="deg">Global Business Lead/MARS</div>
+                                <div class="des">
+                                    <p>As Global Business Lead at DDB, Varsha is responsible for strengthening and evolving Mars Incorporated’s global relationships across multiple geographies and individual agency offices, including adam&eveDDB London, DDB Paris, DDB Chicago, DDB New York, DDB Guangzhou, DDB Mudra (India), and DDB Mexico. Her focus includes delivering future-facing, data-driven strategic & creative solutions to Mars Inc., leveraging new data, insights platforms, technology and capabilities integrated into DDB as part of a broader network strategy.</p>
+                                    <p>Varsha brings to DDB over 20 years of experience working in creative agencies and business technology consultancy. Her expertise spans across capabilities and industries including brand management, creative solutions, Data driven precision marketing, generating growth for top name clients.</p>
+                                    <p>Prior to joining DDB, Varsha was a member of the core leadership team at predictive intelligence San Francisco-based startup Motista, and led client relationships for financial, brokerage, and healthcare clients. There she worked to combine the company’s proprietary tools and big data with expertise in brand positioning, creativity and client relationships, to grow Motista’s revenue and clients significantly over a three-year period.</p>
+                                    <p>Varsha started her career at Leo Burnett, spending over 17 years managing US based and global brands such as Allstate, Kellogg’s, and Brooks. She holds a Masters degree in Mass Communication and Media Studies from The University of Georgia and is a frequent advocate and mentor for women in business. Varsha is also on the Chicago board of America India Foundation (AIF) which is a not -or-profit organization focused on addressing education and health care challenges in India.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Varsha END-->
+
+                <!-- Aditya Kanthy -->
+                <div class="modal fade team_model" id="Aditya" tabindex="-1" aria-labelledby="AdityaLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="photo">
+                                    <img src="images/ADITYA.jpg" alt="">
+                                </div>
+                                <div class="name">Aditya Kanthy</div>
+                                <div class="deg">CEO & MD, DDB Mudra Group and CEO, Omnicom Advertising Services</div>
+                                <div class="des">
+                                    <p>Aditya was born in a military family, where he moved homes every couple of years. The constant travelling, new places and living in villages and towns across the country, helped him develop a deep sense of empathy and an appreciation of culture at a young age.</p>
+                                    <p>These early influences translated into advertising as a career choice. He started his journey with the erstwhile Mudra in 2003 as a strategic planner, taking on various responsibilities over the years including that of the Chief Strategy Officer, a role in which he helped shape India’s most successful independent advertising agency into an Omnicom-owned integrated marketing communications group.</p>
+                                    <p>He has overseen globally recognised Diversity, Equity & Inclusion initiatives like ‘The Phyllis India Project’ that builds and develops a community of women leaders; and ‘Open Pride’ that focuses on respectful representation in creative work and an inclusive work environment for the LGBTQIA+ community & allies.  DDB Mudra Group was the first agency in India to include same sex & live-in partners in medical insurance, the first to offer professional mental health resources years before the conversation became mainstream; and provides best-in-industry paternity leave to enable equal parenting.</p>
+                                    <p>Aditya graduated with honours in Economics at St.Stephen’s College, Delhi and is a gold medalist from MICA, Ahmedabad. His path to DDB’s global leadership team and the transformation of the DDB Mudra Group is a subject of a case study taught at Omnicom’s global leadership development programme. He lives in Mumbai with his wife and enjoys seeing the world afresh through the eyes of his little boy.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Aditya Kanthy END-->
+
+                <!-- Andrew Little -->
+                <div class="modal fade team_model" id="Andrew" tabindex="-1" aria-labelledby="AndrewLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="photo">
+                                    <img src="images/ANDREW.jpg" alt="">
+                                </div>
+                                <div class="name">Andrew Little</div>
+                                <div class="deg">President & Regional CEO, DDB Australia/New Zealand</div>
+                                <div class="des">
+                                    <p>Andrew Little is the President and Regional CEO of DDB Group Australia and New Zealand, leading DDB, Tribal, TRACK, DDB Remedy and Mango across the region. He is celebrating his 22nd year with the agency.</p>
+                                    <p>The advertising company works with some of the region’s biggest brands, including McDonald’s, Volkswagen, Westpac, Sky, Lotto New Zealand, Coles, Kmart, and Dulux. Andrew believes in surrounding himself with the very best people in the industry and dedicating himself to the success of his clients.</p>
+                                    <p>A passionate golfer and beach lover, Andrew is married to Vanessa and the father of Maya and Hugo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Andrew Little END-->
+
+                <!-- Andrew Little -->
+                <div class="modal fade team_model" id="Esther" tabindex="-1" aria-labelledby="EstherLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="photo">
+                                    <img src="images/ESTHER.jpg" alt="">
+                                </div>
+                                <div class="name">Esther Selvanayagam</div>
+                                <div class="deg">Chief Financial Officer for Singapore and Asia</div>
+                                <div class="des">
+                                    <p>Esther Selvanayagam joined DDB Asia as Chief Financial Officer for Singapore and Asia in 2019.</p>
+                                    <p>With over 25 years of experience working in regional and global roles within the APAC advertising and media industry, Esther has a deep understanding of managing market pressures and navigating dynamic business environments. Her impressive career and unique vantage point include experience gained at holding company and agency levels, client-side, startups, and listed companies. At DDB, Esther puts her commercial acumen to work managing the day-to-day finance and operations alongside market CEOs. She is also Omnicom APAC commercial lead for Exxon.</p>
+                                    <p>Esther joined DDB from Dentsu International (previously DAN & Aegis Media) in China, where she played a key role in shaping the network’s infrastructure following a series of early acquisitions. She went on to become CFO of DAN China, overseeing key commercial projects and the integration of Dentsu and Aegis brands involving 4,000+ people in Asia-Pacific’s largest market. In a previous life before advertising, Esther headed up an international games division for entertainment company Imagination, setting up their international operations and flagship office in Los Angeles.</p>
+                                    <p>Sri Lankan-born Esther is an Australian Chartered Accountant. She has two children, aged eight and 10, and takes every opportunity to travel, recharge, and play the piano.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Andrew Little END-->
+
+            </div>
+        </div>
+
+      <footer>
+         <div class="footer_up">
+            <div class="container">
+               <div class="footer_profile">
+                  <div class="content">
+                     <h4>Dave Kissel</h4>
+                     <p class="deg">Global Business Lead/McDonald’s</p>
+                     <p class="link">Connect - <a href="https://www.linkedin.com/in/kisseldave/" target="_blank">Linkedin</a></p>
+                  </div>
+                  <div class="content">
+                     <h4>Elaine Purcell</h4>
+                     <p class="deg">Chief Growth Officer, DDB North America</p>
+                     <p class="link">Connect - <a href="https://www.linkedin.com/in/elaine-purcell-590683b/" target="_blank">Linkedin</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer_down">
+            <div class="container">
+               All Copyright reserved to us
+            </div>
+         </div>
+      </footer>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/swiper-bundle.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
